@@ -67,6 +67,17 @@ $(document).ready(function () {
     var $eventsBtn = $('<button class="events button button-clear">Events</button>');
     $menu.append($eventsBtn);
 
+    var $exportMap = $('<button class="export-map button button-clear" title="Export Map"><i class="fa fa-download"></i></button>');
+    $menu.append($exportMap);
+
+    $exportMap.click(function() {
+        map.once('postcompose', function(event) {
+            var canvas = event.context.canvas;
+            downloadURI(canvas.toDataURL('image/png'), 'map.png');
+        });
+        map.renderSync();
+    });
+
     var layersJson = [];
     $.getJSON('json/layers.json', function(data) {
         data.forEach(function(e) {
@@ -378,4 +389,12 @@ function displayMap(serviceUrl, layerName, center, dateStr, format, matrixSet) {
     });
 
     map.addLayer(layer);
+}
+
+function downloadURI(uri, name)
+{
+    var link = document.createElement("a");
+    link.download = name;
+    link.href = uri;
+    link.click();
 }

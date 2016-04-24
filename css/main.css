@@ -11,6 +11,10 @@ html, body {
     background-color: #b5d0d0;
 }
 
+#mapRealTime {
+    display: none;
+}
+
 .half-map {
     float: left;
     height: 500px;
@@ -155,6 +159,10 @@ ul li {
     padding-left: 10px;
 }
 
+label {
+    white-space: nowrap;
+}
+
 .menu .fa.fa-times {
     float: right;
     color: #666;
@@ -183,4 +191,8 @@ img.legend {
     left: 5px;
     bottom: 5px;
     border: 1px solid #666;
+}
+
+button.button.button-clear {
+    padding: 0 2rem !important;
 }

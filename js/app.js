@@ -153,7 +153,7 @@ $(document).ready(function () {
 
             } else {
                 addNewWMSLayers(map, null, layer);
-                getLayerLegend(layer);
+                if(!$(this).hasClass('event')) { getLayerLegend(layer); }
                 $('.subLayers').remove();
                 $('.menu').fadeOut(300);
             }
@@ -260,7 +260,7 @@ function showLayers(server, eventId) {
                         var layers = data['categories'][0]['layers'];
                         $.each( layers, function( key, layer ) {
                             if (layer.serviceTypeId == "WMTS_1_0_0") {
-                                $ul.append('<li><label><input data-layer="'+encodeURIComponent(JSON.stringify(layer))+'" data-location="'+encodeURIComponent(JSON.stringify(location))+'" class="subLayerCheckBox" type="checkbox"> '+layer.name+'</label></li>');
+                                $ul.append('<li><label><input data-layer="'+encodeURIComponent(JSON.stringify(layer))+'" data-location="'+encodeURIComponent(JSON.stringify(location))+'" class="subLayerCheckBox event" type="checkbox"> '+layer.name+'</label></li>');
                             }
                         });
                         $subLayers.append($ul);

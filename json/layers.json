@@ -1,0 +1,367 @@
+[
+  {
+    "title": "Global Agricultural Lands",
+    "layers": {
+      "Croplands": "aglands:aglands-croplands-2000",
+      "Pastures": "aglands:aglands-pastures-2000"
+    }
+  },
+  {
+    "title": "Anthropogenic Biomes",
+    "layers": {
+      "Anthropogenic Biomes of the World 1700": "anthromes:anthromes-anthropogenic-biomes-world-v2-1700",
+      "Anthropogenic Biomes of the World 1800": "anthromes:anthromes-anthropogenic-biomes-world-v2-1800",
+      "Anthropogenic Biomes of the World 1900": "anthromes:anthromes-anthropogenic-biomes-world-v2-1900",
+      "Anthropogenic Biomes of the World 2000": "anthromes:anthromes-anthropogenic-biomes-world-v2-2000"
+    }
+  },
+  {
+    "title": "Climate Effects on Food Supply",
+    "layers": {
+      "Effects of Climate Change on Global Food Production from SRES Emissions and Socioeconomic Scenarios": "crop-climate:crop-climate-effects-climate-global-food-production"
+    }
+  },
+  {
+    "title": "Energy Infrastructure",
+    "layers": {
+      "Population Exposure Estimates in Proximity to Nuclear Power Plants, Locations": "energy:energy-pop-exposure-nuclear-plants-locations_plants"
+    }
+  },
+  {
+    "title": "Environmental Performance Index",
+    "layers": {
+      "Environmental Performance Index 2010": [
+        "epi:epi-environmental-performance-index-2010",
+        "epi:epi-environmental-performance-index-2010_agriculture",
+        "epi:epi-environmental-performance-index-2010_air-pollution-effects-on-ecosystems",
+        "epi:epi-environmental-performance-index-2010_air-pollution-effects-on-human-health",
+        "epi:epi-environmental-performance-index-2010_biodiversity-and-habitat",
+        "epi:epi-environmental-performance-index-2010_climate-change",
+        "epi:epi-environmental-performance-index-2010_environmental-burden-of-disease",
+        "epi:epi-environmental-performance-index-2010_fisheries",
+        "epi:epi-environmental-performance-index-2010_forestry",
+        "epi:epi-environmental-performance-index-2010_water-effects-on-ecosystems",
+        "epi:epi-environmental-performance-index-2010_water-effects-on-human-health"
+      ],
+      "Environmental Performance Index 2014": [
+        "epi:epi-environmental-performance-index-2014",
+        "epi:epi-environmental-performance-index-2014_eh",
+        "epi:epi-environmental-performance-index-2014_eh-air-quality",
+        "epi:epi-environmental-performance-index-2014_eh-health-impacts",
+        "epi:epi-environmental-performance-index-2014_eh-water-and-sanitation",
+        "epi:epi-environmental-performance-index-2014_ev",
+        "epi:epi-environmental-performance-index-2014_ev-agriculture",
+        "epi:epi-environmental-performance-index-2014_ev-biodiversity-and-habitat",
+        "epi:epi-environmental-performance-index-2014_ev-climate-and-energy",
+        "epi:epi-environmental-performance-index-2014_ev-fisheries",
+        "epi:epi-environmental-performance-index-2014_ev-forests",
+        "epi:epi-environmental-performance-index-2014_ev-water-resources",
+        "epi:epi-environmental-performance-index-2014_percent-change"
+      ]
+    }
+  },
+  {
+    "title": "Environmental Sustainability Index",
+    "layers": {
+      "Environmental Sustainability Index": [
+        "esi:esi-environmental-sustainability-index-2005",
+        "esi:esi-environmental-sustainability-index-2005_air-quality",
+        "esi:esi-environmental-sustainability-index-2005_biodiversity",
+        "esi:esi-environmental-sustainability-index-2005_eco-efficiency",
+        "esi:esi-environmental-sustainability-index-2005_environ-governance",
+        "esi:esi-environmental-sustainability-index-2005_environ-health",
+        "esi:esi-environmental-sustainability-index-2005_greenhouse-gas-emissions",
+        "esi:esi-environmental-sustainability-index-2005_human-sustenance",
+        "esi:esi-environmental-sustainability-index-2005_land",
+        "esi:esi-environmental-sustainability-index-2005_nat-disaster-vulnerability",
+        "esi:esi-environmental-sustainability-index-2005_nat-resource-mgmt",
+        "esi:esi-environmental-sustainability-index-2005_particip-international-collaborate",
+        "esi:esi-environmental-sustainability-index-2005_private-sector-response",
+        "esi:esi-environmental-sustainability-index-2005_reduce-air-pollution",
+        "esi:esi-environmental-sustainability-index-2005_reduce-ecosystem-stress",
+        "esi:esi-environmental-sustainability-index-2005_reduce-pop-press",
+        "esi:esi-environmental-sustainability-index-2005_reduce-trans-environ-press",
+        "esi:esi-environmental-sustainability-index-2005_reduce-waste-consump-press",
+        "esi:esi-environmental-sustainability-index-2005_reduce-water-stress",
+        "esi:esi-environmental-sustainability-index-2005_science-tech",
+        "esi:esi-environmental-sustainability-index-2005_water-quality",
+        "esi:esi-environmental-sustainability-index-2005_water-quantity"
+      ]
+    }
+  },
+  {
+    "title": "Global Fertilizer and Manure",
+    "layers": {
+      "Nitrogen Fertilizer Application": "ferman-v1:ferman-v1-nitrogen-fertilizer-application",
+      "Nitrogen in Manure Production": "ferman-v1:ferman-v1-nitrogen-in-manure-production",
+      "Phosphorus Fertilizer Application": "ferman-v1:ferman-v1-phosphorus-fertilizer-application",
+      "Phosphorus in Manure Production": "ferman-v1:ferman-v1-phosphorus-in-manure-production"
+    }
+  },
+  {
+    "title": "Gridded Population of the World",
+    "layers": {
+      "Centroids": "gpw-v3:gpw-v3-centroids",
+      "Coastlines": "gpw-v3:gpw-v3-coastlines",
+      "Land and Geographic Unit Area Grids": "gpw-v3:gpw-v3-land-geographic-unit-area",
+      "Population Count Grid Future Estimates": [
+        "gpw-v3:gpw-v3-population-count-future-estimates_2005",
+        "gpw-v3:gpw-v3-population-count-future-estimates_2010",
+        "gpw-v3:gpw-v3-population-count-future-estimates_2015"
+      ],
+      "Population Count Grid": [
+        "gpw-v3:gpw-v3-population-count_1990",
+        "gpw-v3:gpw-v3-population-count_1995",
+        "gpw-v3:gpw-v3-population-count_2000"
+      ],
+      "Population Density Grid Future Estimates": [
+        "gpw-v3:gpw-v3-population-density-future-estimates_2005",
+        "gpw-v3:gpw-v3-population-density-future-estimates_2010",
+        "gpw-v3:gpw-v3-population-density-future-estimates_2015"
+      ],
+      "Population Density Grid": [
+        "gpw-v3:gpw-v3-population-density_1990",
+        "gpw-v3:gpw-v3-population-density_1995",
+        "gpw-v3:gpw-v3-population-density_2000"
+      ]
+    }
+  },
+  {
+    "title": "Global Reservoir and Dam",
+    "layers": {
+      "Dams": "grand-v1:grand-v1-dams-rev01",
+      "Reservoirs": "grand-v1:grand-v1-reservoirs-rev01"
+    }
+  },
+  {
+    "title": "Global Rural-Urban Mapping Project",
+    "layers": {
+      "Land and Geographic Unit Area Grids": "grump-v1:grump-v1-land-geographic-unit-area",
+      "Population Count Grid": [
+        "grump-v1:grump-v1-population-count_1990",
+        "grump-v1:grump-v1-population-count_1995",
+        "grump-v1:grump-v1-population-count_2000"
+      ],
+      "Population Density Grid": [
+        "grump-v1:grump-v1-population-density_1990",
+        "grump-v1:grump-v1-population-density_1995",
+        "grump-v1:grump-v1-population-density_2000",
+        "grump-v1:grump-v1-population-density_2010"
+      ],
+      "Settlement Points": "grump-v1:grump-v1-settlement-points",
+      "Urban Extents Grid": "grump-v1:grump-v1-urban-extents"
+    }
+  },
+  {
+    "title": "Indicators of Coastal Water Quality",
+    "layers": {
+      "Change in Chlorophyll-a Concentration": "icwq:icwq-change-in-chlorophyll-a-concentration-1998-2007"
+    }
+  },
+  {
+    "title": "Intergovernmental Panel on Climate Change",
+    "layers": {
+      "Fourth Assessment Report (AR4) Observed Climate Change Impacts": "ipcc:ipcc-ar4-observed-climate-impacts",
+      "Synthetic Assessment of Global Distribution of Vulnerability to Climate Change": "ipcc:ipcc-synthetic-vulnerability-climate-2005-2050-2100"
+    }
+  },
+  {
+    "title": "Low Elevation Coastal Zone",
+    "layers": {
+      "Sea Level Rise Impacts on Ramsar Wetlands of International Importance": [
+        "lecz:lecz-slr-impacts-ramsar-wetlands_centroids",
+        "lecz:lecz-slr-impacts-ramsar-wetlands_polygons"
+      ],
+      "Urban-Rural Population and Land Area Estimates": "lecz:lecz-urban-rural-population-land-area-estimates-v2_urban-rural-zones-10m"
+    }
+  },
+  {
+    "title": "Land Use and Land Cover",
+    "layers": {
+      "Global Grid of Probabilities of Urban Expansion to 2030": "lulc:lulc-global-grid-prob-urban-expansion-2030",
+      "Global Mangrove Forests Distribution": "lulc:lulc-global-mangrove-forests-distribution-2000"
+    }
+  },
+  {
+    "title": "National Aggregates of Geospatial Data Collection",
+    "layers": {
+      "Population, Landscape, And Climate Estimates": "nagdc:nagdc-population-landscape-climate-estimates-v3_coastal-proximity-2010"
+    }
+  },
+  {
+    "title": "Natural Disaster Hotspots",
+    "layers": {
+      "Global Cyclone Hazard Frequency and Distribution": "ndh:ndh-cyclone-hazard-frequency-distribution",
+      "Global Cyclone Mortality Risks and Distribution": "ndh:ndh-cyclone-mortality-risks-distribution",
+      "Global Cyclone Proportional Economic Loss Risk Deciles": "ndh:ndh-cyclone-proportional-economic-loss-risk-deciles",
+      "Global Cyclone Total Economic Loss Risk Deciles": "ndh:ndh-cyclone-total-economic-loss-risk-deciles",
+      "Global Drought Hazard Frequency and Distribution": "ndh:ndh-drought-hazard-frequency-distribution",
+      "Global Drought Mortality Risks and Distribution": "ndh:ndh-drought-mortality-risks-distribution",
+      "Global Drought Proportional Economic Loss Risk Deciles": "ndh:ndh-drought-proportional-economic-loss-risk-deciles",
+      "Global Drought Total Economic Loss Risk Deciles": "ndh:ndh-drought-total-economic-loss-risk-deciles",
+      "Global Earthquake Hazard Distribution - Peak Ground Acceleration": "ndh:ndh-earthquake-distribution-peak-ground-acceleration",
+      "Global Earthquake Hazard Frequency and Distribution": "ndh:ndh-earthquake-frequency-distribution",
+      "Global Earthquake Mortality Risks and Distribution": "ndh:ndh-earthquake-mortality-risks-distribution",
+      "Global Earthquake Proportional Economic Loss Risk Deciles": "ndh:ndh-earthquake-proportional-economic-loss-risk-deciles",
+      "Global Earthquake Total Economic Loss Risk Deciles": "ndh:ndh-earthquake-total-economic-loss-risk-deciles",
+      "Global Flood Hazard Frequency and Distribution": "ndh:ndh-flood-hazard-frequency-distribution",
+      "Global Flood Mortality Risks and Distribution": "ndh:ndh-flood-mortality-risks-distribution",
+      "Global Flood Proportional Economic Loss Risk Deciles": "ndh:ndh-flood-proportional-economic-loss-risk-deciles",
+      "Global Flood Total Economic Loss Risk Deciles": "ndh:ndh-flood-total-economic-loss-risk-deciles",
+      "Global Landslide Hazard Distribution": "ndh:ndh-landslide-hazard-distribution",
+      "Global Landslide Mortality Risks and Distribution": "ndh:ndh-landslide-mortality-risks-distribution",
+      "Global Landslide Proportional Economic Loss Risk Deciles": "ndh:ndh-landslide-proportional-economic-loss-risk-deciles",
+      "Global Landslide Total Economic Loss Risk Deciles": "ndh:ndh-landslide-total-economic-loss-risk-deciles",
+      "Global Volcano Hazard Frequency and Distribution": "ndh:ndh-volcano-hazard-frequency-distribution",
+      "Global Volcano Mortality Risks and Distribution": "ndh:ndh-volcano-mortality-risks-distribution",
+      "Global Volcano Proportional Economic Loss Risk Deciles": "ndh:ndh-volcano-proportional-economic-loss-risk-deciles",
+      "Global Volcano Total Economic Loss Risk Deciles": "ndh:ndh-volcano-total-economic-loss-risk-deciles"
+    }
+  },
+  {
+    "title": "Population Dynamics",
+    "layers": {
+      "Global Estimated Net Migration Grids By Decade": [
+        "popdynamics:popdynamics-global-est-net-migration-grids-1970-2000_1970-1980",
+        "popdynamics:popdynamics-global-est-net-migration-grids-1970-2000_1980-1990",
+        "popdynamics:popdynamics-global-est-net-migration-grids-1970-2000_1990-2000"
+      ]
+    }
+  },
+  {
+    "title": "Poverty Mapping",
+    "layers": {
+      "Global Subnational Infant Mortality Rates": "povmap:povmap-global-subnational-infant-mortality-rates_2000",
+      "Global Subnational Prevalence of Child Malnutrition": "povmap:povmap-global-subnational-prevalence-child-malnutrition"
+    }
+  },
+  {
+    "title": "Satellite-Derived Environmental Indicators",
+    "layers": {
+      "Global Annual Average PM2.5 Grids from MODIS and MISR Aerosol Optical Depth (AOD)": "sdei:sdei-global-annual-avg-pm2-5-2001-2010",
+      "Global Annual PM2.5 Grids from MODIS, MISR and SeaWiFS Aerosol Optical Depth (AOD)": [
+        "sdei:sdei-global-annual-avg-pm2-5-modis-misr-seawifs-aod-1998-2012_2001-2010",
+        "sdei:sdei-global-annual-avg-pm2-5-modis-misr-seawifs-aod-1998-2012_2010-2012",
+        "sdei:sdei-global-uhi-2013_daytdif",
+        "sdei:sdei-global-uhi-2013_dayurbmean",
+        "sdei:sdei-global-uhi-2013_nighttdif",
+        "sdei:sdei-global-uhi-2013_nighturbmean"
+      ]
+    }
+  },
+  {
+    "title": "Gridded Species Distribution",
+    "layers": {
+      "Global Amphibians Family Richness Grids": "species-v1:species-v1-global-amphibian-family-richness"
+    }
+  },
+  {
+    "title": "Superfund Site Footprints",
+    "layers": {
+      "ATSDR Hazardous Waste Site Polygon Data with CIESIN Modifications": "superfund:superfund-atsdr-hazardous-waste-site-ciesin-mod-v2",
+      "ATSDR Hazardous Waste Site Polygon Data": "superfund:superfund-atsdr-hazardous-waste-site-v2",
+      "U.S. EPA National Priorities List Sites with CIESIN Modifications": "superfund:superfund-epa-national-priorities-list-ciesin-mod-v2"
+    }
+  },
+  {
+    "title": "U.S. Census Grids",
+    "layers": {
+      "Summary File 1: Metropolitan Statistical Areas": [
+        "usgrid:usgrid-summary-file1-2000-msa_housingunitsf1density-2000",
+        "usgrid:usgrid-summary-file1-2000-msa_pct1personhousing-2000",
+        "usgrid:usgrid-summary-file1-2000-msa_pctasian-2000",
+        "usgrid:usgrid-summary-file1-2000-msa_pctblack-2000",
+        "usgrid:usgrid-summary-file1-2000-msa_pctfemaleheadhousing-2000",
+        "usgrid:usgrid-summary-file1-2000-msa_pcthispanic-2000",
+        "usgrid:usgrid-summary-file1-2000-msa_pctnativeamerican-2000",
+        "usgrid:usgrid-summary-file1-2000-msa_pctnonhispblack-2000",
+        "usgrid:usgrid-summary-file1-2000-msa_pctnonhispwhite-2000",
+        "usgrid:usgrid-summary-file1-2000-msa_pctoccupiedhousingsf1-2000",
+        "usgrid:usgrid-summary-file1-2000-msa_pctownerhousing-2000",
+        "usgrid:usgrid-summary-file1-2000-msa_pctpacificisland-2000",
+        "usgrid:usgrid-summary-file1-2000-msa_pctpop18to24-2000",
+        "usgrid:usgrid-summary-file1-2000-msa_pctpop1to4-2000",
+        "usgrid:usgrid-summary-file1-2000-msa_pctpop25to64-2000",
+        "usgrid:usgrid-summary-file1-2000-msa_pctpop5to17-2000",
+        "usgrid:usgrid-summary-file1-2000-msa_pctpop65to79-2000",
+        "usgrid:usgrid-summary-file1-2000-msa_pctpop80andup-2000",
+        "usgrid:usgrid-summary-file1-2000-msa_pctpopunder1-2000",
+        "usgrid:usgrid-summary-file1-2000-msa_pctvacanthousing-2000",
+        "usgrid:usgrid-summary-file1-2000-msa_pctwhite-2000",
+        "usgrid:usgrid-summary-file1-2000-msa_popsf1density-2000"
+      ],
+      "Summary File 1": [
+        "usgrid:usgrid-summary-file1-2000_usa-housingunitsf1density-2000",
+        "usgrid:usgrid-summary-file1-2000_usa-pct1personhousing-2000",
+        "usgrid:usgrid-summary-file1-2000_usa-pctasian-2000",
+        "usgrid:usgrid-summary-file1-2000_usa-pctblack-2000",
+        "usgrid:usgrid-summary-file1-2000_usa-pctfemaleheadhousing-2000",
+        "usgrid:usgrid-summary-file1-2000_usa-pcthispanic-2000",
+        "usgrid:usgrid-summary-file1-2000_usa-pctnativeamerican-2000",
+        "usgrid:usgrid-summary-file1-2000_usa-pctnonhispblack-2000",
+        "usgrid:usgrid-summary-file1-2000_usa-pctnonhispwhite-2000",
+        "usgrid:usgrid-summary-file1-2000_usa-pctoccupiedhousingsf1-2000",
+        "usgrid:usgrid-summary-file1-2000-msa_pctownerhousing-2000",
+        "usgrid:usgrid-summary-file1-2000-msa_pctpacificisland-2000",
+        "usgrid:usgrid-summary-file1-2000-msa_pctpop18to24-2000",
+        "usgrid:usgrid-summary-file1-2000-msa_pctpop1to4-2000",
+        "usgrid:usgrid-summary-file1-2000-msa_pctpop25to64-2000",
+        "usgrid:usgrid-summary-file1-2000-msa_pctpop5to17-2000",
+        "usgrid:usgrid-summary-file1-2000-msa_pctpop65to79-2000",
+        "usgrid:usgrid-summary-file1-2000-msa_pctpop80andup-2000",
+        "usgrid:usgrid-summary-file1-2000-msa_pctpopunder1-2000",
+        "usgrid:usgrid-summary-file1-2000-msa_pctvacanthousing-2000",
+        "usgrid:usgrid-summary-file1-2000-msa_pctwhite-2000",
+        "usgrid:usgrid-summary-file1-2000-msa_popsf1density-2000"
+      ],
+      "Summary File 3: Metropolitan Statistical Areas": [
+        "usgrid:usgrid-summary-file3-2000-msa_householdsdensity-2000",
+        "usgrid:usgrid-summary-file3-2000-msa_housingunitsf3density-2000",
+        "usgrid:usgrid-summary-file3-2000-msa_pcteducationbahigher-2000",
+        "usgrid:usgrid-summary-file3-2000-msa_pcteducationhshigher-2000",
+        "usgrid:usgrid-summary-file3-2000-msa_pctforeign-2000",
+        "usgrid:usgrid-summary-file3-2000-msa_pcthouseholdlinguisticisolation-2000",
+        "usgrid:usgrid-summary-file3-2000-msa_pcthousingbuilt50to69-2000",
+        "usgrid:usgrid-summary-file3-2000-msa_pcthousingbuilt70to89-2000",
+        "usgrid:usgrid-summary-file3-2000-msa_pcthousingbuilt90to00-2000",
+        "usgrid:usgrid-summary-file3-2000-msa_pcthousingbuiltbefore50-2000",
+        "usgrid:usgrid-summary-file3-2000-msa_pctoccupiedhousingnocar-2000",
+        "usgrid:usgrid-summary-file3-2000-msa_pctoccupiedhousingsf3-2000",
+        "usgrid:usgrid-summary-file3-2000-msa_pctpop25andover-2000",
+        "usgrid:usgrid-summary-file3-2000-msa_pctpopbelow200pctpovlevel-2000",
+        "usgrid:usgrid-summary-file3-2000-msa_pctpopbelow50pctpovlevel-2000",
+        "usgrid:usgrid-summary-file3-2000-msa_pctpopbelowpovlevel-2000",
+        "usgrid:usgrid-summary-file3-2000-msa_pctpoppovleveldetermined-2000",
+        "usgrid:usgrid-summary-file3-2000-msa_popsf3density-2000"
+      ],
+      "Summary File 3": [
+        "usgrid:usgrid-summary-file3-2000_usa-householdsdensity-2000",
+        "usgrid:usgrid-summary-file3-2000-msa_housingunitsf3density-2000",
+        "usgrid:usgrid-summary-file3-2000-msa_pcteducationbahigher-2000",
+        "usgrid:usgrid-summary-file3-2000-msa_pcteducationhshigher-2000",
+        "usgrid:usgrid-summary-file3-2000-msa_pctforeign-2000",
+        "usgrid:usgrid-summary-file3-2000_usa-pcthouseholdlinguisticisolation-2000",
+        "usgrid:usgrid-summary-file3-2000-msa_pcthousingbuilt50to69-2000",
+        "usgrid:usgrid-summary-file3-2000-msa_pcthousingbuilt70to89-2000",
+        "usgrid:usgrid-summary-file3-2000-msa_pcthousingbuilt90to00-2000",
+        "usgrid:usgrid-summary-file3-2000_usa-pcthousingbuiltbefore50-2000",
+        "usgrid:usgrid-summary-file3-2000-msa_pctoccupiedhousingnocar-2000",
+        "usgrid:usgrid-summary-file3-2000-msa_pctoccupiedhousingsf3-2000",
+        "usgrid:usgrid-summary-file3-2000-msa_pctpop25andover-2000",
+        "usgrid:usgrid-summary-file3-2000_usa-pctpopbelow200pctpovlevel-2000",
+        "usgrid:usgrid-summary-file3-2000-msa_pctpopbelow50pctpovlevel-2000",
+        "usgrid:usgrid-summary-file3-2000-msa_pctpopbelowpovlevel-2000",
+        "usgrid:usgrid-summary-file3-2000-msa_pctpoppovleveldetermined-2000",
+        "usgrid:usgrid-summary-file3-2000-msa_popsf3density-2000"
+      ]
+    }
+  },
+  {
+    "title": "Last of the Wild",
+    "layers": {
+      "Global Human Footprint (Geographic)": "wildareas-v2:wildareas-v2-human-footprint-geographic",
+      "Global Human Influence Index (Geographic)": "wildareas-v2:wildareas-v2-human-influence-index-geographic",
+      "Last of the Wild (Geographic)": "wildareas-v2:wildareas-v2-last-of-the-wild-geographic"
+    }
+  }
+]

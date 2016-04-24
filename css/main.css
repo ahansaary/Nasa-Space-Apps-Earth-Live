@@ -152,10 +152,7 @@ html, body {
 
 ul li {
     list-style-type: none;
-}
-
-label {
-    white-space: nowrap;
+    padding-left: 10px;
 }
 
 .menu .fa.fa-times {
@@ -176,5 +173,14 @@ label {
     margin-left: -150px;
     margin-top: -150px;
     background-color: #eee;
+    border: 1px solid #666;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+img.legend {
+    position: fixed;
+    left: 5px;
+    bottom: 5px;
     border: 1px solid #666;
 }
